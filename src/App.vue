@@ -1,15 +1,18 @@
 <template>
     <Header />
+    <Slider />
 </template>
 
 <script>
 import "@/styles/general.css";
 import Header from '@/elements/Header'
+import Slider from '@/elements/Slider'
 
 export default {
   name: "App",
   components: {
-    Header
+    Header,
+    Slider
   },
 };
 </script>
@@ -21,5 +24,6 @@ body {
   box-sizing: border-box;
   font-size: 62.5%;
   font-family:"Roboto", sans-serif;
+  background-color: #ebebeb;
 }
 </style>
